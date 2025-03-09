@@ -1,0 +1,8 @@
+{
+  "level_filter": "info",
+  "ref_path": "250113_0059_processed_3.wav",
+  "ref_text": "她被人施了诅咒，只要诅咒不解，便会一直昏睡下去。",
+  "spk_name": "c_sf4_normal",
+  "host": "127.0.0.1",
+  "port": 3000
+}

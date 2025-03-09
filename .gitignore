@@ -1,0 +1,4 @@
+/target
+*.wav
+models/*
+resource/g2pw.pt
