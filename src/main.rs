@@ -132,7 +132,8 @@ fn init_gpt_sovits(
     .with_chinese(
         "./resource/g2pw.pt".to_string(),
         "./models/bert_model.pt".to_string(),
-    );
+    )
+    .with_jp(true);
 
     let device = gpt_sovits_rs::Device::cuda_if_available();
     log::info!("device: {:?}", device);

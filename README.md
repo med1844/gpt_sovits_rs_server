@@ -91,6 +91,7 @@ It's much simpler to make distributable packages with compiled exe, with all dep
 Here's how the files would look like:
 
 ```bash
+projects/gpt_sovits_rs_win/standalone_server on aws (us-east-1)
 > tree .
 .
 ├── 250113_0059_processed_3.wav
@@ -98,17 +99,27 @@ Here's how the files would look like:
 ├── c10.dll
 ├── c10_cuda.dll
 ├── config.json
+├── cublas64_12.dll
+├── cublasLt64_12.dll
+├── cudart64_12.dll
 ├── cudnn64_9.dll
 ├── cudnn_engines_precompiled64_9.dll
 ├── cudnn_engines_runtime_compiled64_9.dll
 ├── cudnn_graph64_9.dll
 ├── cudnn_heuristic64_9.dll
+├── cufft64_11.dll
+├── cusolver64_11.dll
+├── cusparse64_12.dll
 ├── fbgemm.dll
+├── libomp140.x86_64.dll
 ├── models
 │   ├── bert_model.pt
 │   ├── gpt_sovits_model.pt
 │   └── ssl_model.pt
+├── nvJitLink_120_0.dll
 ├── nvToolsExt64_1.dll
+├── nvrtc-builtins64_121.dll
+├── nvrtc64_120_0.dll
 ├── resource
 │   ├── en_word_dict.json
 │   ├── g2pw
@@ -135,10 +146,10 @@ Here's how the files would look like:
 ├── torch_cuda.dll
 └── uv.dll
 
-3 directories, 38 files
+3 directories, 48 files
 
 projects/gpt_sovits_rs_win/standalone_server on aws (us-east-1)
 > du -sh .
-4.6G    .
+5.8G    .
 ```
 
